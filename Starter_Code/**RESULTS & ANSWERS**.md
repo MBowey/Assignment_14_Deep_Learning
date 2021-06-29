@@ -3,19 +3,19 @@
 
 ## Overall Performance of Each Model
 
-* Which model has a lower loss?
+* **Which model has a lower loss?**
 
-    * The **Closing Price Model** had the the lower evaluated loss ratio across all window sizes. 
+    * *The **Closing Price Model** had the the lower evaluated loss ratio across all window sizes.* 
 
-* Which model tracks the actual values better over time?
+* **Which model tracks the actual values better over time?**
 
-    * The **Closing Price Model** tracked the actual values better over time. The Fear & Gread model overestimated in the first month and then underestimated from May to June. The predictions where fairly flat across all window sizes. The Closing Model trended upwards month-to-month, which was more in-line with the actual values. 
+    * *The **Closing Price Model** tracked the actual values better over time. The Fear & Gread model overestimated in the first month and then underestimated from May to June. The predictions where fairly flat across all window sizes. The Closing Model trended upwards month-to-month, which was more in-line with the actual values.*
 
-* Which window size works best for the model?
+* **Which window size works best for the model?**
 
-    * A **Window Size of 1** worked best for the **Closing Model**, as it had the lowest loss ratio. It also tracked the volatility of the actual values much more closely. 
+    * *A **Window Size of 1** worked best for the Closing Model, as it had the lowest loss ratio. It also tracked the volatility of the actual values much more closely.* 
 
-    * A **Window Size of 1** for the **Fear & Greed Model** was also better; however, the model overall was quite poor at predicting the actual values across all Window Sizes. 
+    * *A **Window Size of 1** for the Fear & Greed Model was also better; however, the model overall was quite poor at predicting the actual values across all Window Sizes.* 
 
 
 ### Fear & Greed Model 
